@@ -69,11 +69,9 @@ def randomdize():
                 block[cur_blk] ^= (1 << (arr[idx] - 1))
                 colbit[idx] ^= (1 << (arr[idx] - 1))
             grid = np.array(grid)
-    # print(np.sum(grid[0:9,:])
             grid[8, ] = 45 - np.sum(grid[0:8,:], axis = 0)  
     
     return grid
-
 
 @runtime_display
 def Get_Final_Grid():
@@ -98,7 +96,7 @@ def Get_Final_Grid():
 
     choices = np.random.randint(0, 47, 2000)
     for choice in choices:
-        # print(choice)
+        
     # ======================= UP: Generate Valid Grid =======================
     
         if choice == 0:
@@ -186,11 +184,3 @@ if __name__ == "__main__":
     # all_candidates("002400006030010000500008000007000002010000030900600400000007001000090080400200500")
     print(Get_Final_Grid())
     print(randomdize())
-
-
-        
-
-
-    # 0 1 2 3 4 5 6 7 8 
-
-    # 就是可以讲现在这个金融市场，情况很复杂很多变！# 控制变量了！有一个标准/科学方法/量化标准！

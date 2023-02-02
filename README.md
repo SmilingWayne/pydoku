@@ -4,3 +4,4 @@ A sudoku toy in Python. Function including:
 - Dancing Links algorithm
 - Random algorithm
 - Fastest implementation with cpp
+

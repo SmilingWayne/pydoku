@@ -35,7 +35,6 @@ class standard_solver:
 
         return True
 
-    @runtime_display
     def backtrack_solver(self):
         """_summary_
 
